@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------------------------------------------
+                                Use Linux
+-----------------------------------------------------------------------------------------------------------------
+
+Step 1 : Root User
+        sudo su 
+    then enter your root password
+
+Step 2 : installing cmd
+        sudo apt install beef-xss
+
+Step 3 : installation complete 
+
+Step 4 : beef-xss
+        go in url for login on beef
+
+Step 5 : Check beef password
+        nano /usr/share/beef-xss/config.yaml
+
+        and check password username is default is username : beef 
+                                                  password : check config file or try your root pass or try beef

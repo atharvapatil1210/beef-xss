@@ -1,0 +1,66 @@
+4. Identify Subnets and LAN
+
+BeEF provides several network reconnaissance modules to gather information about the network from the hooked browser.
+4.1. Network Discovery
+
+Use the "Internal Network Fingerprinting" module to discover internal IP addresses and subnets:
+
+    Navigate to the "Commands" tab.
+    Select "Network".
+    Choose "Internal Network Fingerprinting".
+    Execute the command and monitor the results.
+
+4.2. ARP Scan
+
+Use the "ARP Scan" module to identify active hosts in the LAN:
+
+    Navigate to the "Commands" tab.
+    Select "Network".
+    Choose "ARP Scan".
+    Execute the command and monitor the results.
+
+5. Locate HTTPS Servers
+5.1. Port Scan
+
+Use the "Port Scanner" module to scan for HTTPS servers on port 443:
+
+    Navigate to the "Commands" tab.
+    Select "Network".
+    Choose "Port Scanner".
+    Configure the scan options to target port 443.
+    Execute the command and monitor the results.
+
+5.2. Verify HTTPS Servers
+
+Once potential HTTPS servers are identified, you can use the "HTTP Request" module to verify them:
+
+    Navigate to the "Commands" tab.
+    Select "Network".
+    Choose "HTTP Request".
+    Configure the options to make a GET request to https://<target_ip>.
+    Execute the command and monitor the results.
+
+6. Detailed Information Gathering
+
+Use additional BeEF modules to gather more detailed information about identified HTTPS servers:
+6.1. SSL Certificate Information
+
+Use the "Get SSL Certificate" module to retrieve SSL certificate details from the HTTPS server:
+
+    Navigate to the "Commands" tab.
+    Select "Network".
+    Choose "Get SSL Certificate".
+    Execute the command and monitor the results.
+
+7. Report Findings
+
+Document any findings in a detailed report. Include the following information:
+
+    Active Hosts: List of discovered devices in the network.
+    Subnets: Identified subnets within the larger network.
+    HTTPS Servers: Details of the HTTPS servers, including IP addresses, open ports, services, and SSL certificates.
+    Recommendations: Suggestions for improving network security based on your findings.
+
+Conclusion
+
+By following these steps, you can use BeEF to identify subnets, explore the local area network, and locate HTTPS servers. Remember to always obtain explicit permission before conducting any penetration testing activities. Ethical hacking helps organizations identify and fix security vulnerabilities, ultimately making the internet a safer place.

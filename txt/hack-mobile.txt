@@ -1,0 +1,10 @@
+Common Commands for Interaction
+
+Once BeEF is running and you have access to its web interface, you can interact with it using various commands and actions through the graphical user interface (GUI). Here are some common actions you might perform:
+
+    Hooking Browsers: Use BeEF's capabilities to hook browsers by directing targets to a URL containing the BeEF hook script.
+                      ( Send  Url test purposes but make it short url then send )
+
+    Running Modules: BeEF allows you to run various modules to exploit, gather information, or control the hooked browsers.
+
+    Monitoring and Reporting: Monitor the status of hooked browsers, view gathered information, and generate reports as needed.

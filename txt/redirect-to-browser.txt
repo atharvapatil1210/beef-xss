@@ -1,0 +1,28 @@
+4. Redirect Browser to Rickroll
+
+Use the "Redirect Browser" module in BeEF to redirect the hooked browser to the Rickroll video.
+4.1. Access the Redirect Browser Module
+
+    Navigate to the "Commands" tab.
+    Select "Browser".
+    Choose "Redirect Browser".
+
+4.2. Configure the Redirect URL
+
+Set the URL to the Rickroll video. The URL for Rick Astley's "Never Gonna Give You Up" on YouTube is:
+
+plaintext
+
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+Enter this URL in the "Location" field.
+4.3. Execute the Command
+
+Execute the "Redirect Browser" command. The hooked browser will be redirected to the Rickroll video.
+
+5. Verify the Redirection
+
+Check the BeEF control panel to ensure the command was executed successfully. The target's browser should now be playing the Rickroll video.
+Conclusion
+
+By following these steps, you can use BeEF to redirect a hooked browser to a Rickroll video. Remember to always obtain explicit permission before conducting any penetration testing activities. Ethical hacking helps organizations identify and fix security vulnerabilities, ultimately making the internet a safer place.

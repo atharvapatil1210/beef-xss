@@ -1,0 +1,28 @@
+1. Host the Malicious Webpage
+
+Host this HTML file on a web server that can be indexed by Google. Ensure that the web server is configured correctly to serve the file and that it is accessible from the internet.
+2. Get the Webpage Indexed by Google
+
+To get your malicious webpage indexed by Google, you can use techniques such as:
+
+    Submitting the URL: Use the Google Search Console to submit the URL of your webpage for indexing.
+    Backlinking: Create backlinks to your webpage from other sites to improve its visibility and chances of being indexed by Google.
+    SEO Techniques: Apply search engine optimization (SEO) techniques to ensure your page appears in search results for specific keywords.
+
+3. Monitor and Control the Hooked Browser
+
+Once your webpage is indexed by Google, wait for the target to perform a Google search and click on the search result that leads to your malicious webpage. When the target's browser loads the page, it will be hooked by BeEF.
+
+In the BeEF control panel, you will see the hooked browser listed under "Hooked Browsers". Click on the target browser to see detailed information and available command modules.
+4. Execute Commands
+
+BeEF provides a wide range of command modules that you can execute on the hooked browser. Some examples include:
+
+    Get Page Source: Retrieve the HTML source code of the current page.
+    Keylogger: Capture keystrokes entered in the browser.
+    Alert Dialog: Display an alert dialog on the target browser.
+
+Select a command module, configure any required options, and execute the command. Monitor the results in the BeEF control panel.
+5. Report Findings
+
+Document any vulnerabilities or security issues you discover during your testing. Provide recommendations for mitigating these issues to improve the security of the target system.

@@ -1,0 +1,29 @@
+1. Hook the Target Browser
+
+To hook the target browser, you need to deliver the BeEF hook script to the target. This can be done by embedding the hook script in a webpage that the target will visit. The hook script URL is typically:
+
+plaintext
+
+http://<your_beef_server_ip>:3000/hook.js
+
+For example, you can create a simple HTML file with the hook script:
+
+    index.html
+
+Host this HTML file on a web server and have the target visit the URL. Once the target's browser loads the page, it will be hooked by BeEF.
+
+2. Monitor and Control the Hooked Browser
+
+In the BeEF control panel, you will see the hooked browser listed under "Hooked Browsers". Click on the target browser to see detailed information and available command modules.
+
+
+Important : 
+3. Execute Commands
+
+BeEF provides a wide range of command modules that you can execute on the hooked browser. Some examples include:
+
+    Get Page Source: Retrieve the HTML source code of the current page.
+    Keylogger: Capture keystrokes entered in the browser.
+    Alert Dialog: Display an alert dialog on the target browser.
+
+Select a command module, configure any required options, and execute the command. Monitor the results in the BeEF control panel.

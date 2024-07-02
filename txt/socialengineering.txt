@@ -1,0 +1,30 @@
+5. Execute Social Engineering Commands
+
+BeEF provides several command modules specifically designed for social engineering attacks. Some examples include:
+5.1. Fake Login Page
+
+You can create a fake login page to capture the target's credentials. Use the "Pretty Theft" module to create a fake login form:
+
+    Navigate to the "Commands" tab.
+    Select "Social Engineering".
+    Choose "Pretty Theft".
+    Configure the options (e.g., type of fake login page) and execute the command.
+
+The fake login page will be displayed to the target, and any entered credentials will be captured and displayed in the BeEF control panel.
+5.2. Fake Update Notification
+
+You can display a fake update notification to the target to trick them into installing malicious software:
+
+    Navigate to the "Commands" tab.
+    Select "Social Engineering".
+    Choose "Fake Update".
+    Configure the options (e.g., update message, download URL) and execute the command.
+
+The fake update notification will be displayed to the target, and if they click on it, they will be redirected to the specified URL.
+6. Report Findings
+
+Document any successful social engineering attacks and the information obtained. Provide recommendations for improving user awareness and security practices to mitigate the risk of social engineering attacks.
+
+
+
+
